@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
+* {
+  box-sizing: border-box;
+}
+:root {
+  font-size: 16px;
+  --white: #ffffff;
+	--dark-blue: #1f2029;
+	--white-gr: #c4c3ca;
+	--yellow: #ffeba7;
+	--yellow-2: #f8ab37;
+  --green-light: #8dd918;
+  --gray-light: #f7f9fa;
+  --purple-dark: #411f52;
+  --gray-dark: #bdbdbd;
+  --gray-middle:#f8f9fa;
+}
+body {
+  color: var(--dark-blue);
+	background-color: var(--gray-light);
+	overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+body::-webkit-scrollbar {
+  width: 6px;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px var(--white-gr);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--dark-blue);
+  outline: 1px solid var(--dark-blue);
+}
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 15px;
+}
+.btn {
+  color: var(--purple-dark);
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
